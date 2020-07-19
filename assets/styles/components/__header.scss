@@ -1,0 +1,18 @@
+.title {
+  font-size: 26px;
+  font-weight: 500;
+  display: inline;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 4px;
+    background-color: $dark-red;
+  }
+
+}
